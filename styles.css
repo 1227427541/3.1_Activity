@@ -280,7 +280,7 @@ padding-bottom: 0;
 font-size: 1.5rem;
 }
 #aboutPlants img, #contactUs img{
-width: 60%;
+width: 50%;
 }
 #contactUs a{
 grid-column: 2/-1;
