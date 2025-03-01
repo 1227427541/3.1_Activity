@@ -142,10 +142,8 @@ p{
 margin: 0 auto;
 }
 #homeMain p{
-padding: .5rem;
-margin-left: 4rem;
-margin-right: 4rem;
 font-size: 1rem;
+padding: 1rem 3rem 2rem;
 }
 #homeMain img{
 width: 50%;
