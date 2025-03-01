@@ -128,14 +128,8 @@ text-align: center;
 padding: 1.5rem 1rem;
 }
 .active{
-border-bottom: solid 3px;
-border-color: var(--white);
-border-width: 80%;
-bottom: -10px;
-content: " ";
-left: 0;
-position: absolute;
-right: 0;
+text-decoration: underline var(--light-green) !important;
+text-decoration-thickness: 3px;
 }
 p{
 margin: 0 auto;
