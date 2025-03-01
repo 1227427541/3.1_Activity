@@ -314,7 +314,7 @@ grid-template-columns: 1fr 2fr 3fr;
 }
 nav{
 grid-column: 3/-1;
-max-width: 600px;
+max-width: 400px;
 margin: 0 auto;
 font-size: 1.1rem;
 }
@@ -323,25 +323,19 @@ h1 {
 font-size: 1.1rem;
 text-align: left;
 }
-
 #logo {
 width: 70px;
 }
-
 #homeMain h2{
-font-size: .75rem;
-padding: 25px 0;
-white-space: nowrap;
+font-size: 1rem;
 margin: 0 auto;
 }
-
 #homeMain img {
-width: 65%;
+width: 75%;
 }
 #homeMain p {
-padding-left: 40px;
-padding-right: 40px;
-padding-bottom: 0.6rem;
+padding: 20px 30px;
+margin: 15px 15px;
 font-size: 12px;
 }
 small{
