@@ -137,9 +137,9 @@ margin: 0 auto;
 #homeMain p{
 display: flex;
 flex-wrap: wrap;
-max-width: 50x;
-font-size: 15px; 
-padding: 10px; 
+max-width: 50px;
+font-size: 20px; 
+padding: 5px; 
 margin: 5px;
 }
 #aboutPlants{
