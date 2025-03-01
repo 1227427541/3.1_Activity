@@ -201,6 +201,14 @@ width: 40px;
 margin: 0 auto;
 padding: 0;
 }
+#homeMain p{
+display: flex;
+flex-wrap: wrap;
+font-size: 15px; 
+max-width: 300px;
+padding: 10px; 
+}
+
 #hero{
 width: 100%;
 max-width: 1200px;
