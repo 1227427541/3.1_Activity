@@ -202,7 +202,8 @@ margin: 0 auto;
 padding: 0;
 }
 #homeMain p {
-padding: 30px;
+padding: 1rem;
+margin: 0.35em 0.35em;
 font-size: 17px;
 }
 #hero{
