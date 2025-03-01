@@ -256,44 +256,35 @@ font-size: 1.5rem;
 }
 
 @media screen and (min-width: 600px){
-#aboutPlants div{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-justify-content: center;
-max-width: 680px;
-margin: 0 auto; 
-padding-bottom: 10px;
-}
-#contactUs div{
-display: grid;
-grid-template-columns: 2fr 1fr;
-align-items: center;
-max-width: 680px;
-margin: 0 auto;
-}
-#aboutPlants h3, #contactUs h3{
-grid-column: 1/-1;
-padding-bottom: 0;
-}
-#aboutPlants p, #contactUs p{
-font-size: 1.5rem;
-}
-#aboutPlants img, #contactUs img{
-width: 50%;
-}
-#contactUs a{
-grid-column: 2/3
-}
-#contactUs p{
-grid-row: 2/3;
-}
-#aboutPlants p{
-grid-column: 2/span 2; 
-align-items: center;
-}
-#aboutPlants a{
-grid-row: 1/span 1;
-}
+    #aboutPlants div{
+    display: grid;   
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 680px;
+    margin: 0 auto;
+    }
+    #contactUs div{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    max-width: 680px;
+    margin: 0 auto;
+    }
+    #aboutPlants h3, #contactUs h3{
+    grid-column: 1/-1;
+    padding-bottom: 0;
+    }
+    #contactUs a{
+    grid-column: 2/3;
+    }
+    #aboutPlants img, #contactUs img{
+    width: 90%;
+    }
+    #contactUs p{
+    grid-row: 2/3;
+    }
+
+
 footer h2 {
 font-size: .75rem;
 }
@@ -356,7 +347,7 @@ padding-bottom: 1rem;
 }
 
 #aboutPlants p, #contactUs p{
-font-size: .80rem
+font-size: .75rem
 }
 
 footer div{
