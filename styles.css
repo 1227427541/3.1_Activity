@@ -128,12 +128,14 @@ text-align: center;
 padding: 1.5rem 1rem;
 }
 .active{
-padding-bottom: 0;
-margin-bottom: 0;
 border-bottom: solid 3px;
 border-color: var(--white);
 border-width: 80%;
-border
+bottom: -10px;
+content: " ";
+left: 0;
+position: absolute;
+right: 0;
 }
 p{
 margin: 0 auto;
