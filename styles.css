@@ -127,7 +127,7 @@ display: block;
 text-align: center;
 padding: 1.5rem 1rem;
 }
-.active a:active{
+.active a{
 text-decoration: underline var(--white);
 text-decoration-thickness: 3px;
 }
@@ -137,10 +137,9 @@ margin: 0 auto;
 #homeMain p{
 display: flex;
 flex-wrap: wrap;
-max-width: 50px;
+max-width: 100px;
 font-size: 20px; 
 padding: 5px; 
-margin: 5px;
 }
 #aboutPlants{
 background-color: var(--blue);
@@ -150,7 +149,7 @@ background-color: var(--med-green);
 }
 #aboutPlants p, #aboutPlants h3, #contactUs p, #contactUs h3{
 color: var(--white);
-padding: 1rem;
+padding: 1.5rem;
 }
 footer section{
 max-width: 275px;
@@ -219,9 +218,6 @@ display: block;
 }
 #aboutPlants{
     margin-bottom: 1rem;
-}
-#aboutPlants p, #contactUs p{
-padding-bottom: 15px;
 }
 #aboutPlants img, #contactUs img{
 width: 40%;
