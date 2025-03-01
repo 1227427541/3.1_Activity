@@ -205,9 +205,9 @@ padding: 0;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 1fr);
-gap: 5px;
-margin-right: 40px;
-margin-left: 40px;
+gap: 1em;
+padding-right: 40px;
+padding-left: 40px;
 font-size: 17px;
 }
 #hero{
