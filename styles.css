@@ -282,6 +282,18 @@ font-size: 1.5rem;
 #aboutPlants img, #contactUs img{
 width: 60%;
 }
+#contactUs a{
+grid-column: 2/-1;
+}
+#contactUs p{
+grid-row: 1/3;
+}
+#aboutPlants p{
+grid-column: 2/-1;
+}
+#aboutPlants a{
+grid-row: 1/3;
+}
 
 }
 /* -----------------------MED SCREEN STYLES-------------------- */
