@@ -261,6 +261,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 justify-content: center;
 max-width: 680px;
+height: 80px;
 margin: 0 auto; 
 padding-bottom: 10px;
 }
@@ -269,6 +270,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 justify-content: center;
 max-width: 680px;
+height: 80px;
 margin: 0 auto;
 padding-bottom: 10px;
 margin-bottom: 10px;
@@ -287,10 +289,12 @@ width: 50%;
 grid-column: 3/span 1;
 }
 #contactUs p{
-grid-column: 1/span 3;
+grid-column: 1/span 2;
+align-items: center;
 }
 #aboutPlants p{
 grid-column: 2/span 2; 
+align-items: center;
 }
 #aboutPlants a{
 grid-row: 1/span 1;
