@@ -127,7 +127,7 @@ display: block;
 text-align: center;
 padding: 1.5rem 1rem;
 }
-.active{
+.active a:active{
 text-decoration: underline var(--white);
 text-decoration-thickness: 3px;
 }
@@ -135,7 +135,7 @@ p{
 margin: 0 auto;
 }
 #homeMain p{
-padding: 1rem;
+padding-bottom: 10px;
 }
 #aboutPlants{
 background-color: var(--blue);
@@ -168,7 +168,6 @@ footer address{
 font-family: var(--body-font);
 color: var(--white);
 margin-top: 1rem;
-line-height: 1;
 }
 #socialMedia{
 max-width: 340px;
@@ -176,6 +175,9 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 margin: 1rem auto 0 auto;
 padding-bottom: 1rem;
+}
+#locationAddress {
+line-height: normal;
 }
 #socialMedia h2{
 grid-column: 1/-1;
@@ -187,7 +189,9 @@ margin: 0 auto;
 padding: 0.25rem;
 }
 #educationalPurpose {
-max-width: 340px;
+max-width: 300px;
+display: flex;
+flex-flow: row wrap;
 font-family: var(--body-font);
 color: var(--white);
 align-items: center;
@@ -207,14 +211,8 @@ margin: 1rem auto;
 #homeMain span{
 display: block;
 }
-#homeMain br {
-    content: "";
-}
-#homeMain br:after {
-    content: " ";
-}
-#aboutPlants{
-margin-bottom: 1rem;
+#aboutPlants p, #contactUs p{
+padding-bottom: 10px;
 }
 #aboutPlants img, #contactUs img{
 width: 40%;
@@ -228,11 +226,6 @@ margin: 0.35rem 0;
 .desktop{
 display: none;
 }
-#educationalPurpose {
-display: flex;
-flex-flow: row wrap;
-}
-
 /* -----------------------HOVER STYLES--------------------- */
 @media (hover:hover){
 nav a:hover{
