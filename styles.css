@@ -271,6 +271,7 @@ justify-content: center;
 max-width: 680px;
 margin: 0 auto;
 padding-bottom: 10px;
+margin-bottom: 10px;
 }
 #aboutPlants h3, #contactUs h3{
 grid-column: 1/-1;
@@ -287,11 +288,11 @@ grid-column: 3/span 1;
 }
 #contactUs p{
 grid-column: 1/span 3;
-align-items: normal;
+align-items: center;
 }
 #aboutPlants p{
 grid-column: 2/span 2; 
-align-items: normal;
+align-items: center;
 }
 #aboutPlants a{
 grid-row: 1/span 1;
