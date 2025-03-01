@@ -138,6 +138,11 @@ margin: 0 auto;
 #homeMain p{
 padding: 1rem;
 }
+#homeMain img{
+width: 75%;
+height: auto;
+padding: 1.5rem;
+}
 #aboutPlants{
 background-color: var(--blue);
 }
