@@ -142,7 +142,9 @@ p{
 margin: 0 auto;
 }
 #homeMain p{
-padding: 1rem;
+padding: .5rem;
+margin-left: 4rem;
+margin-right: 4rem;
 }
 #homeMain img{
 width: 50%;
