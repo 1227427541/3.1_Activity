@@ -343,13 +343,13 @@ padding-bottom: 0.6rem;
 font-size: 12px;
 }
 small{
-max-width: 400px;
+max-width: 700px;
 display: flex;
-flex-flow: row nowrap;
+flex-wrap: nowrap;
+font-size: 10px;
 font-family: var(--body-font);
 color: var(--white);
 justify-content: center;
-align-items: center;
 text-align: center;
 padding-bottom: 1rem;
 }
