@@ -137,7 +137,6 @@ margin: 0 auto;
 #homeMain p{
 display: flex;
 flex-wrap: wrap;
-max-width: 100px;
 font-size: 20px; 
 padding: 5px; 
 }
