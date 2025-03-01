@@ -135,10 +135,15 @@ p{
 margin: 0 auto;
 }
 #homeMain p{
-padding-bottom: 10px;
+display: flex;
+flex-wrap: wrap;
+font-size: 15px; 
+padding-bottom: 15px;
+margin: 15px;
 }
 #aboutPlants{
 background-color: var(--blue);
+margin-bottom: 10px;
 }
 #contactUs{
 background-color: var(--med-green);
@@ -188,8 +193,8 @@ width: 50px;
 margin: 0 auto;
 padding: 0.25rem;
 }
-#educationalPurpose {
-max-width: 300px;
+#educationalPurpose small{
+max-width: 200px;
 display: flex;
 flex-flow: row wrap;
 font-family: var(--body-font);
@@ -201,7 +206,8 @@ padding-bottom: 1rem;
 /* ------------------------MOBILE STYLES--------------------- */
 header img{
 width: 40px;
-margin: 0 auto;
+margin: 0;
+padding: 5px;
 }
 #hero{
 width: 100%;
@@ -212,7 +218,7 @@ margin: 1rem auto;
 display: block;
 }
 #aboutPlants p, #contactUs p{
-padding-bottom: 10px;
+padding-bottom: 15px;
 }
 #aboutPlants img, #contactUs img{
 width: 40%;
