@@ -261,7 +261,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 justify-content: center;
 max-width: 680px;
-height: 80px;
+max-height: 80px;
 margin: 0 auto; 
 padding-bottom: 10px;
 }
@@ -270,10 +270,9 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 justify-content: center;
 max-width: 680px;
-height: 80px;
+max-height: 80px;
 margin: 0 auto;
 padding-bottom: 10px;
-margin-bottom: 10px;
 }
 #aboutPlants h3, #contactUs h3{
 grid-column: 1/-1;
@@ -361,7 +360,7 @@ padding-bottom: 1rem;
 }
 
 #aboutPlants p, #contactUs p{
-font-size: .75rem
+font-size: 1rem
 }
 
 footer div{
