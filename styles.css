@@ -127,7 +127,7 @@ display: block;
 text-align: center;
 padding: 1.5rem 1rem;
 }
-.active{
+nav a.active{
 text-decoration: underline var(--light-green);
 text-decoration-thickness: 3px;
 }
