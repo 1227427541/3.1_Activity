@@ -127,7 +127,7 @@ display: block;
 text-align: center;
 padding: 1.5rem 1rem;
 }
-.active a{
+nav ul li:first-of-type{
 text-decoration: underline var(--white);
 text-decoration-thickness: 3px;
 }
