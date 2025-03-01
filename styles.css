@@ -203,7 +203,6 @@ padding: 0;
 }
 #homeMain p {
 display: grid;
-grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 1fr);
 gap: 1em;
 padding-right: 40px;
