@@ -377,6 +377,9 @@ margin-top: 1rem;
 #aboutPlants{
 margin-bottom: 0;
 }
+#aboutPlants p, #contactUs p {
+font-size: .9rem;
+}
 .desktop{
 display: block;
 padding: 0.5rem;
