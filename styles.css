@@ -135,11 +135,9 @@ p{
 margin: 0 auto;
 }
 #homeMain p{
-display: flex;
-flex-wrap: wrap;
-font-size: 20px; 
+font-size: 17px; 
 max-width: 320px;
-padding: 5px; 
+padding: 10px; 
 }
 #aboutPlants{
 background-color: var(--blue);
@@ -217,7 +215,7 @@ margin: 1rem auto;
 display: block;
 }
 #aboutPlants{
-    margin-bottom: 1rem;
+margin-bottom: 1rem;
 }
 #aboutPlants img, #contactUs img{
 width: 40%;
