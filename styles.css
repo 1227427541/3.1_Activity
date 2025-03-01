@@ -312,7 +312,7 @@ font-size: 10px;
 
 h1{
 font-size: 1.1rem;
-padding-left: 10px;
+padding-left: 0;
 }
 #homeMain h2{
 font-size: .75rem;
@@ -330,7 +330,7 @@ margin: 0 auto;
 font-size: 1.1rem;
 }
 header img{
-width: 85%;
+width: 90%;
 margin: 0 auto;
 padding: 0;
 }
