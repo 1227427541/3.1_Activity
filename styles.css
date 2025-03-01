@@ -121,14 +121,13 @@ color: var(--dark-gray);
 }
 nav a{
 font-family: var(--heading-font);
-text-decoration: none;
 color: var(--white);
 display: block;
 text-align: center;
 padding: 1.5rem 1rem;
 }
 .active{
-text-decoration: underline var(--light-green) !important;
+text-decoration: underline var(--light-green);
 text-decoration-thickness: 3px;
 }
 p{
