@@ -293,10 +293,10 @@ grid-row: 2/3;
 @media screen and (min-width: 700px){
 
 h1{
-font-size: 1.5rem;
+font-size: 1.1rem;
 }
 #homeMain h2{
-font-size: 2.25rem;
+font-size: .75 rem;
 padding: 0.6rem 0;
 white-space: nowrap;
 margin: 0.5rem 1rem;
@@ -308,16 +308,18 @@ nav{
 grid-column: 3/-1;
 max-width: 600px;
 margin: 0 auto;
-font-size: 1.5rem;
+font-size: 1.1rem;
 }
 header img{
-width: 80px;
+width: 50px;
 margin: 0 auto;
 padding: 0;
 }
 #homeMain p {
-padding: 0px 20px;
-font-size: 20px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 0.6rem;
+font-size: 12px;
 }
 small{
 max-width: 400px;
