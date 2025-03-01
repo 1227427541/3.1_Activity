@@ -138,6 +138,7 @@ margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
 font-size: 20px; 
+max-width: 320px;
 padding: 5px; 
 }
 #aboutPlants{
