@@ -130,6 +130,7 @@ padding: 1.5rem 1rem;
 nav a:first-of-type{
 text-decoration: underline var(--white);
 text-decoration-thickness: 3px;
+text-decoration-line: underline var(--white);
 }
 p{
 margin: 0 auto;
