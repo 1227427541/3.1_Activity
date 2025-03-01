@@ -201,14 +201,13 @@ width: 40px;
 margin: 0 auto;
 padding: 0;
 }
-#homeMain p{
-display: flex;
-flex-wrap: wrap;
-font-size: 20px; 
-max-width: 250px;
-padding: 10px; 
+#homeMain p {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+margin: 10px;
+font-size: 17px;
 }
-
 #hero{
 width: 100%;
 max-width: 1200px;
