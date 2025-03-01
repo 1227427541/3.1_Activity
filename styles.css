@@ -200,7 +200,7 @@ margin: 0 auto;
 padding: 0;
 }
 #homeMain p {
-padding: 15px;
+padding: 10px;
 font-size: 17px;
 }
 #hero{
@@ -290,6 +290,15 @@ grid-row: 2/3;
 }
 /* -----------------------MED SCREEN STYLES-------------------- */
 @media screen and (min-width: 700px){
+
+h1 {
+    font-size: 3rem; 
+}
+header img{
+width: 80px;
+margin: 0 auto;
+padding: 0;
+}
 
 footer div{
 display: grid;
