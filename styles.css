@@ -291,11 +291,23 @@ grid-row: 2/3;
 }
 /* -----------------------MED SCREEN STYLES-------------------- */
 @media screen and (min-width: 700px){
-
-h1 {
-    font-size: 3rem; 
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
-h2{
+    h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 3rem;
+}
+nav{
+grid-column: 1/-1;
+font-size: 1.5rem;
+}
+
+#homeMain h2{
 font-size: 2.25rem;
 padding: 0.6rem 0;
 white-space: nowrap;
