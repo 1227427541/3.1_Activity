@@ -296,7 +296,7 @@ h1{
 font-size: 1.1rem;
 }
 #homeMain h2{
-font-size: .75 rem;
+font-size: .75rem;
 padding: 0.6rem 0;
 white-space: nowrap;
 margin: 0.5rem 1rem;
@@ -331,6 +331,10 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding-bottom: 1rem;
+}
+
+#aboutPlants p, #contactUs p{
+font-size: .75rem
 }
 
 footer div{
