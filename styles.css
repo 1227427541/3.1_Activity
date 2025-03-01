@@ -306,10 +306,8 @@ grid-template-columns: 1fr 2fr 3fr;
 }
 nav{
 grid-column: 3/-1;
-max-width: 300px;
+max-width: 600px;
 margin: 0 auto;
-font-size: 1rem;
-gap: 15px;
 }
 header img{
 width: 80px;
