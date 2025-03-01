@@ -316,9 +316,10 @@ padding-left: 0;
 }
 #homeMain h2{
 font-size: .75rem;
-padding: 0.6rem 0;
+padding: 0.4rem 0;
 white-space: nowrap;
 margin: 0.5rem 1rem;
+margin-bottom: 3rem;
 }
 header{
 grid-template-columns: 1fr 2fr 3fr;
