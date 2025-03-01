@@ -259,7 +259,7 @@ font-size: 1.5rem;
 #aboutPlants div{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-align-items: center;
+justify-content: center;
 max-width: 680px;
 margin: 0 auto; 
 padding-bottom: 10px;
@@ -267,7 +267,7 @@ padding-bottom: 10px;
 #contactUs div{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-align-items: center;
+justify-content: center;
 max-width: 680px;
 margin: 0 auto;
 padding-bottom: 10px;
@@ -331,10 +331,10 @@ font-size: 1rem;
 margin: 0 auto;
 }
 #homeMain img {
-width: 75%;
+width: 85%;
 }
 #homeMain p {
-padding: 20px 30px;
+padding: 0 30px;
 margin: 15px 15px;
 font-size: 12px;
 }
