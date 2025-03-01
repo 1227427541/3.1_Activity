@@ -286,8 +286,7 @@ width: 50%;
 grid-column: 3/span 1;
 }
 #contactUs p{
-grid-row: 1/span 2;
-padding-left: 25px;
+grid-column: 1/span 2;
 }
 #aboutPlants p{
 grid-column: 2/span 2; 
@@ -332,9 +331,7 @@ font-size: 1.1rem;
 }
 #logo{
 width: 70%;
-margin: 0;
-padding: 0;
-grid-column: 1;
+grid-column: 1/span 1;
 }
 #homeMain img {
 width: 65%;
