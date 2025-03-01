@@ -205,8 +205,8 @@ padding: 0;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(3, 1fr);
-margin: 15px;
-padding: 10px;
+grid-gap: 15px;
+margin: 25px;
 font-size: 17px;
 }
 #hero{
