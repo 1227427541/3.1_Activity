@@ -118,7 +118,7 @@ grid-template-columns: 1fr 1fr 1fr;
 gap: 1rem;
 }
 #logo img {
-    height: 80%;
+    height: 30%;
     width: auto; 
     padding: .5rem 1rem;
 }
@@ -134,7 +134,7 @@ text-align: center;
 font-size: 2rem;
 padding: 1.5rem 1rem;
 }
-nav .active{
+nav li a:active{
 text-decoration: underline var(--white);
 text-decoration-thickness: 3px;
 }
