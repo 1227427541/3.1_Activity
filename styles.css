@@ -292,6 +292,9 @@ grid-row: 2/3;
 /* -----------------------MED SCREEN STYLES-------------------- */
 @media screen and (min-width: 700px){
 
+h1{
+    font-size: 2.5rem;
+}
 #homeMain h2{
 font-size: 2.25rem;
 padding: 0.6rem 0;
@@ -305,7 +308,7 @@ nav{
 grid-column: 3/-1;
 max-width: 300px;
 margin: 0 auto;
-align-items: center;
+font-size: 1rem;
 gap: 15px;
 }
 header img{
