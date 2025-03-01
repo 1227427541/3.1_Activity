@@ -301,8 +301,8 @@ grid-row: 1/3;
 
 h1{
 font-size: 1.1rem;
-grid-column: 2;
-padding-left: 0;
+grid-column: 1/span 2;
+padding-left: 10px;
 }
 #homeMain h2{
 font-size: .75rem;
@@ -314,7 +314,7 @@ footer h2 {
 font-size: .75rem;
 }
 footer address {
-font-size: 10px; 
+font-size: 10px;
 }
 header{
 grid-template-columns: 1fr 2fr 3fr;
@@ -326,7 +326,7 @@ margin: 0 auto;
 font-size: 1.1rem;
 }
 header img{
-width: 60%;
+width: 75%;
 margin: 0 auto;
 padding: 0;
 grid-column: 1;
